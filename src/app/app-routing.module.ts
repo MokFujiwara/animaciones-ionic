@@ -27,6 +27,10 @@ const routes: Routes = [
     path: 'ani4',
     loadChildren: () => import('./pages/ani4/ani4.module').then( m => m.Ani4PageModule)
   },
+  {
+    path: 'tabs',
+    loadChildren: () => import('./pages/tabs/tabs.module').then( m => m.TabsPageModule)
+  },
 ];
 
 @NgModule({
